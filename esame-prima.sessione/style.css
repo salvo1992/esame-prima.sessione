@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  color: #2b2929;
+  height: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+.sidebar .logo {
+  font-size: 25px;
+  margin-right: auto;
+}
+
+.sidebar .icon {
+  font-size: 20px;
+  margin: 20px;
+  padding-block: 50px;
+}
+
+#search-button,
+#userbutton {
+  height: 30px;
+}
+
+#search-button {
+  width: 100px;
+  display: flex;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(241, 233, 233);
+  background-color: white;  
+}
+
+.following{
+  background-color: rgba(240, 236, 236, 0.289);
+}
+
+.left{ 
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+}
+
+.recommended{
+ font-weight: bold;
+ color:black ;
+ border-bottom: 3px solid black; 
+}
+
+.centro-documento {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.documento-destro {
+  border-right: 1px solid lightgray;
+  margin-top:20px ;
+  padding-top: 30px;
+}
+
+.documento-sinistro {
+  text-align: center; 
+}
+
+.documento-sinistro,
+.documento-destro {
+  width: 44%;
+  margin: 2%; 
+}
+
+.maybe{
+  border-bottom: rgb(204, 203, 203) 1px solid; 
+}
+
+.card {
+  display: flex;
+  flex-direction:row-reverse;
+  text-align: left;
+  max-width: 500px;
+}
+
+.card img {
+  display: flex;
+  max-width: 50%;
+  height: auto;
+  flex-direction: column;
+  height: 30%;
+  padding-top: 20%;
+}
+
+/* Stili per il logo di Medium */
+.medium-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+/* Stili per il logo di Miro */
+.miro-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+/* Stili per il logo di Twitter */
+.twitter-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.twit{
+  background-color: white;
+    color: black;
+    border:solid 1px grey ;
+    margin: 0px 200px;
+    border-radius: 50px;
+    padding: 10px 15px 10px 15px;   
+}
+
+/* Stili per la barra di navigazione */
+.navigation-bar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Stili per i link nella barra di navigazione */
+.navigation-link {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* Stili per la sezione "Recommanded Topics" */
+.radius-button {
+  background-color: white;
+  font-size: 10pt;
+  border-radius: 20px;
+  padding-inline: 15px;
+  border: 0 solid rgb(117, 117, 117);
+  padding-block: 5px;
+  background-color: rgba(207, 203, 203, 0.4);
+}
+
+/* Stili per la sezione "Follow" */
+
+
+.follow-section{
+    text-align: left;
+    width: 350px;
+}
+
+.follow-section h4{
+    margin-left: 20px;
+    font-weight: normal;   
+}
+
+.list-follow{
+    padding-left: 0px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 0;
+    width: 300px;
+}
+
+.li img{
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+
+.title-subtitle h3{
+    margin: 1px;
+}
+
+.title-subtitle p {
+    color: gray;
+    font-size: 1rem;
+}
+
+.follow button{
+    background-color: white;
+    color: black;
+    border:solid 1px grey ;
+    margin: 10px 20px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Stili per Recentely saved */
+.nome{
+text-align: left;
+}
+
+/* Stili per il footer */
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
